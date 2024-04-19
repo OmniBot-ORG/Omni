@@ -22,7 +22,7 @@ Small description Soon.
 
 ## 🔗 Resource Links
 
-- 🤖 Aero Bot: [Invite Here](https://discord.gg/kMPF63PCQU)
+- 🤖 Omni Bot: [Invite Here](https://discord.gg/kMPF63PCQU)
 - 🤝 Support Server: [Join Here](https://discord.gg/kMPF63PCQU)
 
 <br>
@@ -41,11 +41,11 @@ Small description Soon.
 
 ```
 git clone git@github.com:OmniBot-ORG/Aero.git
-cd Aero
+cd Omni
 npm install
 ```
 ```
-git clone git@github.com:OmniBot-ORG/Aero.git ; cd Aero ; npm install
+git clone git@github.com:OmniBot-ORG/Aero.git ; cd Omni ; npm install
 ```
 
 - Wait for all the dependencies to be installed
