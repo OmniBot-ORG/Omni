@@ -1,10 +1,10 @@
 # Contributing
 
-Thank you for considering making a contribution to Aero.
+Thank you for considering making a contribution to Omni.
 
 Before contributing, please read the [code of conduct](CODE_OF_CONDUCT.md), which all contributors must follow.
 
-You can add yourself to [CONTRIBUTORS.md](https://github.com/OmniBot-ORG/Aero/blob/main/CONTRIBUTORS.md).
+You can add yourself to [CONTRIBUTORS.md](https://github.com/OmniBot-ORG/Omni/blob/main/CONTRIBUTORS.md).
 
 You don't need to write code to contribute; all contributions are welcome and encouraged. You could:
 
@@ -26,17 +26,17 @@ Please label your issues appropriately.
 
 ## Submitting a bug report
 
-Issues should be used to report bugs. If you have found a bug, check to see if it has already been reported or resolved. If it hasn't, you can [create a new issue](https://github.com/OmniBot-ORG/Aero/issues/new/choose) using the "Bug report" template. Please include as much information as possible in your report.
+Issues should be used to report bugs. If you have found a bug, check to see if it has already been reported or resolved. If it hasn't, you can [create a new issue](https://github.com/OmniBot-ORG/Omni/issues/new/choose) using the "Bug report" template. Please include as much information as possible in your report.
 
 ## Submitting a feature request
 
-<!-- To request a new feature, [start a new discussion](https://github.com/OmniBot-ORG/Aero/discussions/new?category=Ideas) under the Ideas category so other members of the community can discuss the request and vote on it. -->
+<!-- To request a new feature, [start a new discussion](https://github.com/OmniBot-ORG/Omni/discussions/new?category=Ideas) under the Ideas category so other members of the community can discuss the request and vote on it. -->
 
-If you would like to request changes to an existing feature, it may be better to [create an issue](https://github.com/OmniBot-ORG/Aero/issues/new) instead (use the `enhancement` label).
+If you would like to request changes to an existing feature, it may be better to [create an issue](https://github.com/OmniBot-ORG/Omni/issues/new) instead (use the `enhancement` label).
 
 ## Creating a pull request
 
-To edit the documentation, translate, or contribute code to this project, you will need to [create a new pull request](https://github.com/OmniBot-ORG/Aero/compare). For large changes, you should **consider creating an issue** (or commenting on an existing one) first, as it could save you some time.
+To edit the documentation, translate, or contribute code to this project, you will need to [create a new pull request](https://github.com/OmniBot-ORG/Omni/compare). For large changes, you should **consider creating an issue** (or commenting on an existing one) first, as it could save you some time.
 
 You should name your commits using [**this commit message format**](https://github.com/angular/material/blob/master/.github/CONTRIBUTING.md#-commit-message-format).
 

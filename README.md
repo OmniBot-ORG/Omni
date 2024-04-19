@@ -1,4 +1,4 @@
-# Aero
+# Omni
 <div style="display: block; margin-left: auto; margin-right: auto; width: 50%" >
 <a href="https://discord.gg/kMPF63PCQU"><img src="https://img.shields.io/badge/Discord-%235865F2.svg?style=for-the-badge&logo=discord&logoColor=white" title="Support Server" alt="Support Server" /></a> 
 <a href="https://discord.gg/kMPF63PCQU"><img src="https://img.shields.io/badge/-Invite%20Me!-blue?style=for-the-badge" title="JustShush" alt="JustShush" /></a> 
@@ -40,12 +40,12 @@ Small description Soon.
 - Open the terminal and run the following commands
 
 ```
-git clone git@github.com:OmniBot-ORG/Aero.git
+git clone git@github.com:OmniBot-ORG/Omni.git
 cd Omni
 npm install
 ```
 ```
-git clone git@github.com:OmniBot-ORG/Aero.git ; cd Omni ; npm install
+git clone git@github.com:OmniBot-ORG/Omni.git ; cd Omni ; npm install
 ```
 
 - Wait for all the dependencies to be installed
@@ -58,8 +58,8 @@ If you need any additional help, make sure to read our guides [join the Discord 
 
 <h1 align="center"> 🤝 Contributing 🤝 </h1>
 
-- Feel free to [Fork](https://github.com/OmniBot-ORG/Aero/fork) this repository, create a feature branch and submit a pull request
-- Before Forking the repository make sure to read [contributing](https://github.com/OmniBot-ORG/Aero/blob/main/CONTRIBUTING.md#contributing)
+- Feel free to [Fork](https://github.com/OmniBot-ORG/Omni/fork) this repository, create a feature branch and submit a pull request
+- Before Forking the repository make sure to read [contributing](https://github.com/OmniBot-ORG/Omni/blob/main/CONTRIBUTING.md#contributing)
 
 <br>
 PS: I dont have any idea for the pfp of the bot, if you want to help just send me a message with an idea for the pfp, we will very appreciate the help :)
@@ -79,6 +79,6 @@ PS: I dont have any idea for the pfp of the bot, if you want to help just send m
 <details>
 <summary>Show graph</summary>
 
-[![Star History Chart](https://api.star-history.com/svg?repos=OmniBot-ORG/Aero&type=Date)](https://star-history.com/#OmniBot-ORG/Aero&Date)
+[![Star History Chart](https://api.star-history.com/svg?repos=OmniBot-ORG/Omni&type=Date)](https://star-history.com/#OmniBot-ORG/Omni&Date)
 
 </details>
