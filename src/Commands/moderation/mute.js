@@ -3,6 +3,7 @@ const { SlashCommandBuilder, PermissionFlagsBits, ChatInputCommandInteraction, E
 const ms = require('ms');
 
 module.exports = {
+	name: 'mute',
 	data: new SlashCommandBuilder()
 		.setName('mute')
 		.setDescription('Restrict a member\'s ability to communicate.')

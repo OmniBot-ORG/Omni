@@ -1,6 +1,7 @@
 const { ChatInputCommandInteraction, SlashCommandBuilder, PermissionFlagsBits } = require('discord.js');
 
 module.exports = {
+	name: 'slow',
 	data: new SlashCommandBuilder()
 		.setName('slowmode')
 		.setDescription('Change the Slowmode.')

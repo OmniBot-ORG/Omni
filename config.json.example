@@ -1,6 +1,0 @@
-{
-	"TOKEN": "The_token",
-	"clientId": "The_client_ID",
-	"DevID": [""],
-	"MONGO_URI": "The_mongo_uri"
-}

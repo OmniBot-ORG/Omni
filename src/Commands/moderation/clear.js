@@ -1,6 +1,7 @@
 const { ChatInputCommandInteraction, SlashCommandBuilder, PermissionFlagsBits } = require('discord.js');
 
 module.exports = {
+	name: 'clear',
 	data: new SlashCommandBuilder()
 		.setName('clear')
 		.setDescription('Clear messages.')
