@@ -1,5 +1,5 @@
 const color = require('colors');
-const { Events, ActivityType } = require("discord.js");
+const { Events, ActivityType } = require('discord.js');
 
 module.exports = {
 	name: Events.ClientReady,
@@ -8,16 +8,16 @@ module.exports = {
 
 		const options = [{
 			type: ActivityType.Watching,
-			text: `Over ${client.guilds.cache.size} servers! 🙂`,
-			status: "online",
+			text: `Over {servers} servers! 🙂`,
+			status: 'online',
 		}, {
 			type: ActivityType.Watching,
-			text: `Over ${client.guilds.cache.reduce((a, b) => a + b.memberCount, 0)} Users!`,
-			status: "online"
+			text: `Over {users} Users!`,
+			status: 'online'
 		}, {
 			type: ActivityType.Listening,
 			text: `new updates soon™`,
-			status: "idle"
+			status: 'idle'
 		}];
 
 		let i = -1;
@@ -26,7 +26,9 @@ module.exports = {
 			if (!options[i]) i = 0;
 			client.user.setPresence({
 				activities: [{
-					name: options[i].text,
+					name: options[i].text
+						.replaceAll('{users}', client.guilds.cache.reduce((a, b) => a + b.memberCount, 0))
+						.replaceAll('{servers}', client.guilds.cache.size),
 					type: options[i].type,
 				}],
 				status: options[i].status,
