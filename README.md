@@ -66,10 +66,6 @@ PS: I dont have any idea for the pfp of the bot, if you want to help just send m
 
 # TODO
 
-- Add a new endpoints that gets all commands aswell has the type of command and description so i can make a dynamic thing on the [website](#)(Soon).
-- Make auth for the api.
-- 42API Implementation done just need to do the command now.
-
 ## 😕 Support
 
 [![Discord](https://discord.com/api/guilds/1230825612726501386/widget.png?style=banner4)](https://discord.gg/kMPF63PCQU)
