@@ -2,7 +2,7 @@
 const color = require('colors');
 const fs = require('node:fs');
 const path = require('node:path');
-const { Client, GatewayIntentBits, Partials, Collection } = require("discord.js");
+const { Client, GatewayIntentBits, Partials, Collection } = require('discord.js');
 const { Guilds, GuildMembers, GuildMessages, GuildPresences, MessageContent, GuildInvites } = GatewayIntentBits;
 
 const client = new Client({
@@ -10,7 +10,7 @@ const client = new Client({
 	partials: [Partials.User, Partials.Message, Partials.GuildMember, Partials.ThreadMember, Partials.Reaction],
 });
 
-client.config = require("../config.json");
+client.config = require('../config.json');
 client.commands = new Collection();
 const foldersPath = path.join(__dirname, 'Commands');
 const commandFolders = fs.readdirSync(foldersPath);
@@ -24,7 +24,7 @@ for (const folder of commandFolders) {
 		if ('data' in command && 'execute' in command) {
 			client.commands.set(command.data.name, command);
 		} else {
-			console.log(`[WARNING] The command at ${filePath} is missing a required "data" or "execute" property.`);
+			console.log(`[WARNING] The command at ${filePath} is missing a required 'data' or 'execute' property.`);
 		}
 	}
 }
@@ -42,19 +42,19 @@ for (const file of eventFiles) {
 	}
 }
 
-const process = require("node:process");
+const process = require('node:process');
 
-process.on("unhandledRejection", (reason, promise) => {
-	console.error("Unhandled Rejection:", promise, "reason:", reason);
+process.on('unhandledRejection', (reason, promise) => {
+	console.error('Unhandled Rejection:', promise, 'reason:', reason);
 });
 
-process.on("uncaughtException", (err) => {
-	console.error("Uncaught Exception:", err);
+process.on('uncaughtException', (err) => {
+	console.error('Uncaught Exception:', err);
 });
 
-process.on("uncaughtExceptionMonitor", (err, origin) => {
-	console.error("Uncaught Exception Monitor:", err, origin);
+process.on('uncaughtExceptionMonitor', (err, origin) => {
+	console.error('Uncaught Exception Monitor:', err, origin);
 });
 
 client.login(client.config.TOKEN);
-require("../deploy.js")
+require('../deploy.js')

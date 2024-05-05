@@ -24,11 +24,7 @@ module.exports = {
 			if (n >= 100) return interaction.reply({ content: 'You can\'t remove more than 100 mesages!' });
 			if (n < 1) return interaction.reply({ content: 'You have to delete at least 1 message!' });
 
-			interaction.channel.messages.fetch({
-				limit: n
-			}).then(msg => {
-				interaction.channel.bulkDelete(msg)
-			})
+			interaction.channel.bulkDelete(n);
 
 			await interaction.reply({ content: `You have deleted ${n} messages succesfully.`, ephemeral: true })
 		} catch (error) {
